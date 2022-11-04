@@ -2,7 +2,7 @@ import { Container, Col, Row } from 'reactstrap';
 
 const Footer = () => {
     return (
-        <Footer ClassName='site-footer'>
+        <footer className='site-footer'>
             <Container>
                 <Row>
                     <Col xs={{ size: 4, offset: 1 }} sm='2'>
@@ -56,7 +56,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-        </Footer>
+        </footer>
     )
 }
 
