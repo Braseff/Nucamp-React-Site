@@ -6,7 +6,6 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col xs={{ size: 4, offset: 1 }} sm='2'>
-                        <h5>this will be site navigation!</h5>
                         <ul className='list-unstyled'>
                             <li>
                                 <Link to='/'>Home</Link>
