@@ -1,9 +1,9 @@
 import { useSelector } from 'react-redux';
 import { Container, Row } from 'reactstrap';
 import { useParams } from 'react-router-dom';
-import { selectCampsiteById } from '../features/counter/campsites/campsitesSlice';
-import CampsitesDetail from '../features/counter/campsites/CampsitesDetail';
-import CommentsList from '../features/counter/comments/CommentsList';
+import { selectCampsiteById } from '../features/campsites/campsitesSlice';
+import CampsitesDetail from '../features/campsites/CampsitesDetail';
+import CommentsList from '../features/comments/CommentsList';
 import SubHeader from '../components/SubHeader';
 
 const CampsiteDetailPage = () => {

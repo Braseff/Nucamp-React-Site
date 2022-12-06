@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { PARTNERS } from '../../../app/shared/PARTNERS';
+import { PARTNERS } from '../../app/shared/PARTNERS';
 
 const initialState = {
     partnersArray: PARTNERS
